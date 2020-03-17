@@ -1,0 +1,86 @@
+@import './color.less';
+
+// Шрифты
+.regular() {
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.semibold() {
+  font-family: "Proxima Nova Semibold", sans-serif;
+}
+
+.light() {
+  font-family: "Proxima Nova Light", sans-serif;
+}
+
+.bold() {
+  font-family: "Proxima Nova Bold", sans-serif;
+}
+
+// Позиции
+.inline-block-middle () {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline-block-top () {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inline-block-bottom () {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* Базовые установки */
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background: @white-two;
+}
+
+img {
+  background-size: cover;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1173px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+select {
+  -ms-appearance: none;
+  appearance: none !important;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+@tablet-area: 768px;
+@mobile: 320px;

@@ -1,0 +1,39 @@
+/* Базовые установки */
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+}
+html {
+  height: 100%;
+}
+body {
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+img {
+  background-size: cover;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  max-width: 1173px;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+select {
+  -ms-appearance: none;
+  appearance: none !important;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+textarea {
+  overflow: auto;
+}
